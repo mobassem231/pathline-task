@@ -41,3 +41,6 @@ Modern CSS: Gradients, glassmorphism effects, smooth transitions
 JavaScript Functionality: All interactive features work seamlessly
 Professional Styling: Executive search firm aesthetic with corporate colors
 Accessibility: Proper contrast ratios and semantic HTML
+
+
+Tasks are distributed into 3 branches
