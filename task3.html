@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chartwell Partners - Executive Search Firm</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="./all.min.css" rel="stylesheet">
+</head>
+<body class="light-mode"> <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="./logo.svg" alt="CP logo" width="246px" height="23px">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="file:///C:/html/path/index.html#home">Home</a></li>
+                <li><a href="file:///C:/html/path/index.html#about">Our Firm</a></li>
+                <li><a href="file:///C:/html/path/index.html#industries">Industries</a></li>
+                <li><a href="file:///C:/html/path/index.html#team">Team</a></li>
+                <li><a href="file:///C:/html/path/index.html#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <button id="themeToggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Executive Search Excellence</h1>
+            <p class="hero-subtitle">Identifying exceptional leaders with precision, integrity, and deep industry knowledge</p>
+            <a href="file:///C:/html/path/index.html#contact" class="cta-button">Partner With Us</a>
+        </div>
+        <div class="hero-image">
+            <img src="./58_ChartwellTeamPortraits_03-29-23.jpg" style="transform: translate(0px, 0px);" data-first-enter-image="true">
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="container">
+            <h2>Our Track Record</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="70">70</div>
+                    <div class="stat-label">% Repeat Clients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="20">20</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="500">500</div>
+                    <div class="stat-label">+ Successful Placements</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="95">95</div>
+                    <div class="stat-label">% Client Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Chartwell Partners</h2>
+                    <p>With extensive training as senior partners of the largest global search firms, we apply our in-depth industry knowledge to exceed our clients' expectations.</p>
+                    <p>Our cohesive, dedicated team of professionals has worked together for close to 20 years with a singular focus on delivering exceptional leaders to our executive search clients.</p>
+                    <div class="values-grid">
+                        <div class="value-item">
+                            <i class="fas fa-target"></i>
+                            <h3>Outstanding Execution</h3>
+                            <p>Leveraging our large firm know-how with proven, disciplined search processes</p>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-handshake"></i>
+                            <h3>Lasting Relationships</h3>
+                            <p>We invest deeply in relationships that last, which starts with caring</p>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <h3>Reputation &amp; Integrity</h3>
+                            <p>Our reputation is our livelihood. We think long and let the golden rule govern our decisions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="industries" class="industries-section">
+        <div class="container">
+            <h2>Industry Expertise</h2>
+            <div class="industries-carousel">
+                <div class="industry-slide">
+                    <div class="industry-content">
+                        <div class="industry-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h3>Healthcare</h3>
+                        <p>Specialized executive search for healthcare organizations, medical devices, and life sciences companies.</p>
+                    </div>
+                </div>
+                <div class="industry-slide active">
+                    <div class="industry-content">
+                        <div class="industry-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Financial Services</h3>
+                        <p>Board director, CEO and senior management assignments for banks and financial institutions.</p>
+                    </div>
+                </div>
+                <div class="industry-slide">
+                    <div class="industry-content">
+                        <div class="industry-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h3>Consumer Products</h3>
+                        <p>Executive leadership solutions for consumer goods and retail companies.</p>
+                    </div>
+                </div>
+                <div class="industry-slide">
+                    <div class="industry-content">
+                        <div class="industry-icon">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                        <h3>Industrial</h3>
+                        <p>Leadership recruitment for manufacturing, distribution, and industrial services.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-btn prev" onclick="changeSlide(-1)">❮</button>
+                <button class="carousel-btn next" onclick="changeSlide(1)">❯</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team-section">
+        <div class="container">
+            <h2>Our Leadership Team</h2>
+            <div class="team-grid">
+                <div class="team-card" onclick="openModal(&#39;member1&#39;)">
+                    <div class="team-image">
+                        <img src="./Petty-Scott-e1665011450760.jpg" srcset="https://chartwellpartners.com/wp-content/uploads/2021/05/Petty-Scott-e1665011450760.jpg 2x" alt="Petty, Scott" title="">
+                    </div>
+                    <div class="team-info">
+                        <h3>J. Scott Petty</h3>
+                        <p>Financial Services / Real Estate</p>
+                        <div class="team-social">
+                            <a href="file:///C:/html/path/index.html#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card" onclick="openModal(&#39;member2&#39;)">
+                    <div class="team-image">
+                        <a class="item-image aos-init aos-animate" href="https://chartwellpartners.com/our-firm/amy-bottoms/" data-aos="fade-down" data-aos-delay="0">
+			<img src="./AB-headshot-Jan-23_Retouched-resized.jpg" srcset="https://chartwellpartners.com/wp-content/uploads/2023/01/AB-headshot-Jan-23_Retouched-resized.jpg 2x" alt="Amy-Bottoms" title="">
+		</a>
+                    </div>
+                    <div class="team-info">
+                        <h3>Amy Bottoms</h3>
+                        <p>Biopharmaticals</p>
+                        <div class="team-social">
+                            <a href="file:///C:/html/path/index.html#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card" onclick="openModal(&#39;member3&#39;)">
+                    <div class="team-image">
+                        <img src="./CWP-Photos-SeanOneal-Opt.jpg" srcset="https://chartwellpartners.com/wp-content/uploads/2021/05/CWP-Photos-SeanOneal-Opt.jpg 2x" alt="Sean Oneal" title="">
+                    </div>
+                    <div class="team-info">
+                        <h3>Sean O’Neal</h3>
+                        <p>Financial Services / Real Estate</p>
+                        <div class="team-social">
+                            <a href="file:///C:/html/path/index.html#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="chat-widget" id="chatWidget">
+        <div class="chat-header" onclick="toggleChat()">
+            <i class="fas fa-comments"></i>
+            <span>Need Help?</span>
+            <i class="fas chat-toggle fa-chevron-up"></i>
+        </div>
+        <div class="chat-body" id="chatBody" style="display: none;">
+            <div class="chat-messages">
+                <div class="chat-message bot">
+                    <p>Hello! How can we help you today?</p>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Type your message..." id="chatInput">
+                <button onclick="sendMessage()"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>We'd love to hear from you! Fill out the form below or reach us directly.</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Executive Blvd, Suite 400, Charlotte, NC 28202</p>
+                    <p><i class="fas fa-phone"></i> (704) 555-1234</p>
+                    <p><i class="fas fa-envelope"></i> info@chartwellpartners.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <h3>Send us a Message</h3>
+                    <form id="myForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                            <div class="error-message"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <div class="error-message"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="password" required>
+                            <div class="error-message"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <div class="error-message"></div>
+                        </div>
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Chartwell Partners. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="member1Modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('member1')">&times;</span>
+            <div class="modal-body">
+                <img src="./Petty-Scott-e1665011450760.jpg" alt="J. Scott Petty">
+                <div class="modal-info">
+                    <h3>J. Scott Petty</h3>
+                    <p>Managing Partner, Financial Services / Real Estate</p>
+                    <p>Scott Petty is a seasoned executive search professional with over 25 years of experience. He specializes in financial services and real estate, helping clients identify top-tier talent for critical leadership roles. Scott is known for his deep industry knowledge and his commitment to building lasting relationships.</p>
+                    <div class="modal-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="member2Modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('member2')">&times;</span>
+            <div class="modal-body">
+                <img src="./AB-headshot-Jan-23_Retouched-resized.jpg" alt="Amy Bottoms">
+                <div class="modal-info">
+                    <h3>Amy Bottoms</h3>
+                    <p>Senior Partner, Biopharmaticals</p>
+                    <p>Amy Bottoms brings extensive expertise in the biopharmaceutical sector. Her focus is on executive placements that drive innovation and growth for her clients. Amy is recognized for her strategic approach to talent acquisition and her dedication to understanding the unique needs of the life sciences industry.</p>
+                    <div class="modal-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="member3Modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('member3')">&times;</span>
+            <div class="modal-body">
+                <img src="./CWP-Photos-SeanOneal-Opt.jpg" alt="Sean O’Neal">
+                <div class="modal-info">
+                    <h3>Sean O’Neal</h3>
+                    <p>Partner, Financial Services / Real Estate</p>
+                    <p>Sean O’Neal is a key member of the financial services and real estate practice. He excels at identifying leaders who can navigate complex market dynamics and drive successful outcomes. Sean's clients value his meticulous approach and his ability to find candidates who are not only skilled but also a strong cultural fit.</p>
+                    <div class="modal-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Navigation Toggle
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('.nav-menu');
+
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('active');
+                hamburger.classList.toggle('active'); // Optional: Animate hamburger icon
+            });
+
+            // Smooth Scrolling
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    // Close mobile menu if open
+                    if (navMenu.classList.contains('active')) {
+                        navMenu.classList.remove('active');
+                        hamburger.classList.remove('active'); // Optional: Reset hamburger icon
+                    }
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+
+            // Chat input enter key
+            document.getElementById('chatInput').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    sendMessage();
+                }
+            });
+
+            // Interactive Statistics Counter
+            const stats = document.querySelectorAll('.stat-number');
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.5
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const target = parseInt(entry.target.dataset.target);
+                        let current = 0;
+                        const increment = target / 100; // Adjust for speed
+
+                        const timer = setInterval(() => {
+                            current += increment;
+                            if (current >= target) {
+                                entry.target.textContent = target;
+                                clearInterval(timer);
+                            } else {
+                                entry.target.textContent = Math.floor(current);
+                            }
+                        }, 20); // Update every 20ms
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            stats.forEach(stat => {
+                observer.observe(stat);
+            });
+
+            // Industry Expertise Carousel
+            let currentSlide = 0;
+            const slides = document.querySelectorAll('.industry-slide');
+            const totalSlides = slides.length;
+
+            function showSlide(index) {
+                slides.forEach((slide, i) => {
+                    slide.classList.remove('active');
+                });
+                slides[index].classList.add('active');
+            }
+
+            window.changeSlide = function(direction) {
+                currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+                showSlide(currentSlide);
+            }
+
+            showSlide(currentSlide); // Initialize carousel
+
+            // Live Chat Widget
+            window.toggleChat = function() {
+                const chatBody = document.getElementById('chatBody');
+                const chatToggleIcon = document.querySelector('.chat-toggle');
+                if (chatBody.style.display === 'none' || chatBody.style.display === '') {
+                    chatBody.style.display = 'block';
+                    chatToggleIcon.classList.remove('fa-chevron-up');
+                    chatToggleIcon.classList.add('fa-chevron-down');
+                } else {
+                    chatBody.style.display = 'none';
+                    chatToggleIcon.classList.remove('fa-chevron-down');
+                    chatToggleIcon.classList.add('fa-chevron-up');
+                }
+            }
+
+            window.sendMessage = function() {
+                const chatInput = document.getElementById('chatInput');
+                const chatMessages = document.querySelector('.chat-messages');
+                const messageText = chatInput.value.trim();
+
+                if (messageText !== '') {
+                    const userMessageDiv = document.createElement('div');
+                    userMessageDiv.classList.add('chat-message', 'user');
+                    userMessageDiv.innerHTML = `<p>${messageText}</p>`;
+                    chatMessages.appendChild(userMessageDiv);
+                    chatInput.value = '';
+                    chatMessages.scrollTop = chatMessages.scrollHeight; // Scroll to bottom
+
+                    // Simple bot response
+                    setTimeout(() => {
+                        const botMessageDiv = document.createElement('div');
+                        botMessageDiv.classList.add('chat-message', 'bot');
+                        botMessageDiv.innerHTML = `<p>Thank you for your message! We will get back to you shortly.</p>`;
+                        chatMessages.appendChild(botMessageDiv);
+                        chatMessages.scrollTop = chatMessages.scrollHeight;
+                    }, 1000);
+                }
+            }
+
+            // Team Modals
+            window.openModal = function(memberId) {
+                document.getElementById(memberId + 'Modal').style.display = 'block';
+            }
+
+            window.closeModal = function(memberId) {
+                document.getElementById(memberId + 'Modal').style.display = 'none';
+            }
+
+            window.onclick = function(event) {
+                if (event.target.classList.contains('modal')) {
+                    event.target.style.display = 'none';
+                }
+            }
+
+            // Form Validation
+            const form = document.getElementById('myForm');
+
+            form.addEventListener('submit', function(event) {
+                event.preventDefault(); // Prevent default form submission
+                let isValid = true;
+
+                // Clear previous error messages
+                document.querySelectorAll('.error-message').forEach(el => el.textContent = '');
+
+                // Validate name
+                const name = document.getElementById('name').value.trim();
+                if (name === '') {
+                    document.querySelector('#name + .error-message').textContent = 'Name is required';
+                    isValid = false;
+                }
+
+                // Validate email
+                const email = document.getElementById('email').value.trim();
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!email || !emailRegex.test(email)) {
+                    document.querySelector('#email + .error-message').textContent = 'Valid email is required';
+                    isValid = false;
+                }
+
+                // Validate password
+                const password = document.getElementById('password').value;
+                if (password.length < 6) {
+                    document.querySelector('#password + .error-message').textContent = 'Password must be at least 6 characters long';
+                    isValid = false;
+                }
+
+                // Validate message
+                const message = document.getElementById('message').value.trim();
+                if (message === '') {
+                    document.querySelector('#message + .error-message').textContent = 'Message is required';
+                    isValid = false;
+                }
+
+                if (isValid) {
+                    alert('Form submitted successfully!');
+                    form.reset(); // Reset the form fields
+                }
+            });
+
+            // Theme Toggle
+            const themeToggle = document.getElementById('themeToggle');
+            const body = document.body;
+
+            // Check for saved theme in localStorage
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme) {
+                body.classList.remove('light-mode', 'dark-mode');
+                body.classList.add(savedTheme);
+                if (savedTheme === 'dark-mode') {
+                    themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+                } else {
+                    themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+                }
+            } else {
+                // Default to light mode if no theme is saved
+                body.classList.add('light-mode');
+                themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+            }
+
+            themeToggle.addEventListener('click', function() {
+                if (body.classList.contains('light-mode')) {
+                    body.classList.remove('light-mode');
+                    body.classList.add('dark-mode');
+                    themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+                    localStorage.setItem('theme', 'dark-mode');
+                } else {
+                    body.classList.remove('dark-mode');
+                    body.classList.add('light-mode');
+                    themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+                    localStorage.setItem('theme', 'light-mode');
+                }
+            });
+        });
+    </script>
+
+</body></html>
